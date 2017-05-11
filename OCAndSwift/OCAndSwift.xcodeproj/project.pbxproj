@@ -34,6 +34,7 @@
 		0B3857791EC405DA00C0126C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		0B38577D1EC40A0600C0126C /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		0B38577E1EC40A0600C0126C /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		0B3857801EC4158300C0126C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +77,11 @@
 				0B3857701EC401F500C0126C /* Info.plist */,
 				0B38575F1EC401F500C0126C /* Supporting Files */,
 				0B3857771EC4021B00C0126C /* SecondViewController.swift */,
-				0B3857761EC4021B00C0126C /* OCAndSwift-Bridging-Header.h */,
 				0B3857791EC405DA00C0126C /* ThirdViewController.swift */,
 				0B38577D1EC40A0600C0126C /* FourViewController.h */,
 				0B38577E1EC40A0600C0126C /* FourViewController.m */,
+				0B3857801EC4158300C0126C /* PrefixHeader.pch */,
+				0B3857761EC4021B00C0126C /* OCAndSwift-Bridging-Header.h */,
 			);
 			path = OCAndSwift;
 			sourceTree = "<group>";
@@ -292,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCAndSwift/PrefixHeader.pch";
 				INFOPLIST_FILE = OCAndSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grtech.OCAndSwift;
@@ -307,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OCAndSwift/PrefixHeader.pch";
 				INFOPLIST_FILE = OCAndSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grtech.OCAndSwift;

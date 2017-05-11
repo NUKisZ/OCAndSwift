@@ -32,6 +32,7 @@ class SecondViewController: UIViewController {
         print("aa")
         let vc = FourViewController()
         print(vc.nibName as Any);
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

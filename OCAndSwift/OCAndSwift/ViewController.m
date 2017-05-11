@@ -7,9 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "OCAndSwift-Swift.h"
-
-
 @interface ViewController ()
 
 @end
