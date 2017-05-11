@@ -25,6 +25,8 @@
     [btn setTitle:@"swift" forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(action) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    
 }
 - (void)action{
     SecondViewController *vc = [[SecondViewController alloc]init];
