@@ -27,6 +27,7 @@
 }
 - (void)action{
     SecondViewController *vc = [[SecondViewController alloc]init];
+    [vc aa];
     [self presentViewController:vc animated:YES completion:nil];
 }
 
